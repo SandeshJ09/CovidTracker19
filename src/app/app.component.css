@@ -1,0 +1,45 @@
+#detail .card-text-total {
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+#detail .card-text-Active {
+  font-weight: bold;
+  font-size: 30px;
+  color: blue;
+}
+
+#detail .card-text-recovered {
+  font-weight: bold;
+  font-size: 30px;
+  color: green;
+}
+
+#detail .card-text-death {
+  font-weight: bold;
+  font-size: 30px;
+  color: red;
+}
+
+#detail .card-title {
+  font-weight: bold;
+}
+/*
+#detail .card-body {
+  background-color: seagreen;
+}
+form {
+  background-color: seagreen;
+  background-image: url("https://cdn.pixabay.com/photo/2020/03/19/01/58/coronavirus-4945950_960_720.jpg");
+  Full height 
+  height: 100%;
+   Center and scale the image nicely 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   Add the blur effect 
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+*/

@@ -12,7 +12,7 @@ export class AppComponent {
   title = 'CovidTracker19';
   global: boolean;
   country: string;
-  countryData: CountryModel; /*not needed anymore*/
+  countryData: CountryModel; /*not needed anymore...*/
   data: GlobalModel;
   dailydata: any[];
   countries: any[];

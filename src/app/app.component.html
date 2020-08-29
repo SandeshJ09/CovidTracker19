@@ -1,5 +1,8 @@
 <body>
   <form>
+    <div class="source text-right">
+      <p><a href="https://disease.sh/">Source Data </a></p>
+    </div>
     <section id="dropdown">
       <div class="container text-center">
         <div class="row">
@@ -37,28 +40,32 @@
             <div class="card-body">
               <h3 class="card-title">Total Cases</h3>
               <p class="card-text-total">{{ data.cases | number }}</p>
-              <p>Numbers of Total cases of COVID-19</p>
+              <p>Last Updated</p>
+              <p>{{ data.updated | date }}</p>
             </div>
           </div>
           <div class="col-md-3 md-2">
             <div class="card-body">
               <h3 class="card-title">Total Active</h3>
               <p class="card-text-Active">{{ data.active | number }}</p>
-              <p>Numbers of Active cases of COVID-19</p>
+              <p>Last Updated</p>
+              <p>{{ data.updated | date }}</p>
             </div>
           </div>
           <div class="col-md-3 md-2">
             <div class="card-body">
               <h3 class="card-title">Total Recovered</h3>
               <p class="card-text-recovered">{{ data.recovered | number }}</p>
-              <p>Numbers of Recovered cases of COVID-19</p>
+              <p>Last Updated</p>
+              <p>{{ data.updated | date }}</p>
             </div>
           </div>
           <div class="col-md-3 md-2">
             <div class="card-body">
               <h3 class="card-title">Total Deaths</h3>
               <p class="card-text-death">{{ data.deaths | number }}</p>
-              <p>Numbers of deaths due to COVID-19</p>
+              <p>Last Updated</p>
+              <p>{{ data.updated | date }}</p>
             </div>
           </div>
         </div>

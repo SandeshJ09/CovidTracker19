@@ -25,21 +25,28 @@
 #detail .card-title {
   font-weight: bold;
 }
-/*
+
 #detail .card-body {
-  background-color: seagreen;
+  background-color: steelblue;
+  opacity: 0.75;
 }
-form {
+
+body {
   background-color: seagreen;
   background-image: url("https://cdn.pixabay.com/photo/2020/03/19/01/58/coronavirus-4945950_960_720.jpg");
-  Full height 
-  height: 100%;
-   Center and scale the image nicely 
+  /* Full height */
+  height: auto;
+  min-height: 100vh;
+  margin: 0;
+  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-   Add the blur effect 
+  /*  Add the blur effect 
   filter: blur(8px);
-  -webkit-filter: blur(8px);
+  -webkit-filter: blur(8px);*/
 }
-*/
+
+.source {
+  color: red;
+}
